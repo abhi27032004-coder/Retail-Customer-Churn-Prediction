@@ -8,24 +8,27 @@ Business Problem: A UK-based online retailer wants to identify which customers a
 # Key Results
 MetricValueTotal Customers Analyzed5,878Churn Rate50.8% (2,985 customers)Model Accuracy69%ROC-AUC Score0.7481High Risk Customers2,606Peak Monthly Revenue£1.46M (Nov 2011)
 
-# Project Structure
+## 🗂️ Project Structure
+
+```
 retail-churn-project/
 │
 ├── data/
-│   ├── online_retail_II.csv               # Raw dataset (Kaggle)
-│   ├── customer_churn_features.csv        # Engineered features + churn labels
-│   ├── churn_by_country.csv               # SQL query result
-│   ├── risk_segments.csv                  # SQL query result
-│   └── monthly_revenue.csv                # SQL query result
+│   ├── online_retail_II.csv              # Raw dataset (Kaggle)
+│   ├── customer_churn_features.csv       # Engineered features + churn labels
+│   ├── churn_by_country.csv              # SQL query result
+│   ├── risk_segments.csv                 # SQL query result
+│   └── monthly_revenue.csv              # SQL query result
 │
 ├── notebooks/
-│   ├── 01_data_cleaning.ipynb             # Data cleaning + churn labeling
-│   └── 02_sql_analysis.ipynb              # SQL business insights
+│   ├── 01_data_cleaning.ipynb            # Data cleaning + churn labeling
+│   └── 02_sql_analysis.ipynb             # SQL business insights
 │
 ├── dashboard/
-│   └── churn_dashboard.html               # Interactive HTML dashboard
+│   └── churn_dashboard.html              # Interactive HTML dashboard
 │
 └── README.md
+```
 
 # Project Pipeline
 Raw CSV (1M+ rows)
