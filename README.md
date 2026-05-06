@@ -12,18 +12,18 @@ MetricValueTotal Customers Analyzed5,878Churn Rate50.8% (2,985 customers)Model A
 retail-churn-project/
 │
 ├── data/
-│   ├── online_retail_II.csv              # Raw dataset (Kaggle)
-│   ├── customer_churn_features.csv       # Engineered features + churn labels
-│   ├── churn_by_country.csv              # SQL query result
-│   ├── risk_segments.csv                 # SQL query result
-│   └── monthly_revenue.csv              # SQL query result
+│   ├── online_retail_II.csv               # Raw dataset (Kaggle)
+│   ├── customer_churn_features.csv        # Engineered features + churn labels
+│   ├── churn_by_country.csv               # SQL query result
+│   ├── risk_segments.csv                  # SQL query result
+│   └── monthly_revenue.csv                # SQL query result
 │
 ├── notebooks/
-│   ├── 01_data_cleaning.ipynb            # Data cleaning + churn labeling
-│   └── 02_sql_analysis.ipynb             # SQL business insights
+│   ├── 01_data_cleaning.ipynb             # Data cleaning + churn labeling
+│   └── 02_sql_analysis.ipynb              # SQL business insights
 │
 ├── dashboard/
-│   └── churn_dashboard.html              # Interactive HTML dashboard
+│   └── churn_dashboard.html               # Interactive HTML dashboard
 │
 └── README.md
 
@@ -90,10 +90,10 @@ One-time buyers churn fastest — Customers with Frequency = 1 have the highest 
 
 # Business Recommendations
 
-🎯 Win-back campaign for top 10 high-value churned customers (£34K–£77K spend)
-📅 Day-45 discount trigger for customers who haven't reordered after 45 days
-🌍 Focus retention on UK — 5,350 customers, highest absolute churn volume
-📦 Bundle offers for one-time buyers to increase Frequency score
+- Win-back campaign for top 10 high-value churned customers (£34K–£77K spend)
+- Day-45 discount trigger for customers who haven't reordered after 45 days
+- Focus retention on UK — 5,350 customers, highest absolute churn volume
+- Bundle offers for one-time buyers to increase Frequency score
 
 
 # Tech Stack
@@ -107,5 +107,4 @@ Online Retail II UCI — Available on Kaggle
 Date range: December 2009 – December 2011
 
 
-👩‍💻 Author
-Abhishek
+# Author - Abhishek
